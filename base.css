@@ -1,0 +1,46 @@
+:root {
+  --primary: #007784;
+  --text-color: #333;
+  --text-2-color: #666666;
+  --text-3-color: black;
+
+  --header-width: 1310px;
+  --header-height: 100px;
+  --header-poster: 745px;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  box-sizing:border-box;
+}
+
+.btn {
+    min-width: 120px;
+    height: 36px;
+    text-decoration: none;
+    border:none;
+    font-size: 1.5rem;
+    padding: 0;
+    line-height: 1.6rem;
+    color: var(--primary);
+    background-color: #fff;
+}
+@keyframes scaleIn {
+    from { 
+        transform: scale(0)
+    }
+    to { 
+        transform: scale(1)
+
+    }
+}
